@@ -1,0 +1,12 @@
+body{
+    background-image: url("./img/background/wallhaven-ymp23d.png");
+    background-size: 100wh 100vh;
+    margin: 0;
+}
+
+#background-opacity{
+    background-color: rgba(0, 0, 0, .5);
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+}
