@@ -96,6 +96,10 @@ body{
     margin-top: 25px;
 }
 
+#authenticate > input{
+    cursor: pointer;
+}
+
 #container > span{
     bottom: 50px;
     font-size: var(--font-size);
