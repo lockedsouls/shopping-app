@@ -1,5 +1,8 @@
 :root{
-    --margins: 35px;
+    --button-color: rgba(21, 39, 33, 1);
+    --button-color2: rgb(83,93,62);
+    --font-size: 18px;
+    --margins: 40px;
 }
 
 *{
@@ -33,17 +36,18 @@ body{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 425px;
     justify-content: center;
-    width: 750px;
+    position: relative;
+    width: 700px;
 }
 
 .input-field{
     border-radius: 6px;
-    font-size: 18px;
+    font-size: var(--font-size);
     height: 60px;
     position: relative;
-    width: 600px;
+    width: 500px;
 }
 
 .input-field > input{
@@ -84,10 +88,23 @@ body{
     height: 100%;
     position: absolute;
     right: 10px;
-    width: var(--margins);
+    width: 25px;
 }
 
 #authenticate{
-    background-color: rgba(21, 39, 33, 1);
+    background-color: var(--button-color);
     margin-top: 25px;
+}
+
+#container > span{
+    bottom: 50px;
+    font-size: var(--font-size);
+    position: absolute;
+}
+
+#container > span > span{
+    cursor: pointer;
+    color: var(--button-color2);
+    font-style: italic;
+    font-weight: 700; /* 700 = bold */
 }
