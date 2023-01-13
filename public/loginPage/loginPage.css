@@ -1,7 +1,6 @@
 :root{
     --button-color: rgba(21, 39, 33, 1);
     --button-color2: rgb(83,93,62);
-    --font-size: 18px;
     --margins: 40px;
 }
 
@@ -12,23 +11,10 @@
 
 body{
     align-items: center;
-    background-image: url("./img/background/wallhaven-ymp23d.png");
-    background-size: cover;
-    color: rgb(255, 255, 255);
     display: flex;
     height: 100vh;
     justify-content: center;
-    margin: 0;
     width: 100vw;
-}
-
-body::before{
-    content: "";
-    background-color: rgba(0, 0, 0, .5);
-    height: 100vh;
-    position: absolute;
-    width: 100vw;
-    z-index: -1;
 }
 
 #container{
