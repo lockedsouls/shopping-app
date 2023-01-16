@@ -49,10 +49,11 @@ body{
 }
 
 .input-field > input[type=text], .input-field > input[type=password]{
-    padding: 0 5px;
+    padding: 0 12px;
 }
 
 .input-field > label{
+    font-size: 18px;
     opacity: .7;
     position: absolute;
     top: -22px;
@@ -68,7 +69,7 @@ body{
 }
 
 #password > input{
-    padding-right: 45px;
+    padding-right: 47px;
 }
 
 #password > img{
