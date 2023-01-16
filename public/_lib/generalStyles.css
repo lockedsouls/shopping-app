@@ -3,6 +3,7 @@
 }
 
 body{
+    background-attachment: fixed;
     background-image: url("./wallhaven-ymp23d.png");
     background-size: cover;
     color: rgb(255, 255, 255);

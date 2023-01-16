@@ -4,9 +4,9 @@
 
     if (password_field.type === "text"){
         password_field.type = "password";
-        target.src = "./img/icons/eye-slash-regular.svg";
+        target.src = "./img/eye-slash-regular.svg";
     }else{
         password_field.type = "text";
-        target.src = "./img/icons/eye-regular.svg";
+        target.src = "./img/eye-regular.svg";
     }
 }
